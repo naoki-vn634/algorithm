@@ -10,6 +10,7 @@ def main(sort_algorithm):
         result = int(reduce(lambda x,y : x+y , [x for x in x]))
         print(result)
 
+
     elif "randix" in sort_algorithm:
         print("How many Integers??")
         N = int(input())
